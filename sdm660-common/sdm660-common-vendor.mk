@@ -639,7 +639,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig-V1.1-java \
     com.qti.dpmframework \
     qti-telephony-common \
-    vendor.qti.gnss@3.0-service
+    vendor.qti.gnss@3.0-service \
+    chargeonlymode
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_COPY_FILES += \
